@@ -1,0 +1,100 @@
+{
+	"assetId": "qdyf7",
+	"assetName": "Mossy_Tree_Stump_qdyf7",
+	"assetType": "3d",
+	"assetSubType": "singleMesh",
+	"assetTier": 3,
+	"assetRootPath": "/Game/Megascans/3D_Assets/Mossy_Tree_Stump_qdyf7",
+	"meshList": [
+		{
+			"meshId": "mesh1",
+			"name": "S_Mossy_Tree_Stump_qdyf7_lod5",
+			"path": "/Game/Megascans/3D_Assets/Mossy_Tree_Stump_qdyf7/S_Mossy_Tree_Stump_qdyf7_lod5.S_Mossy_Tree_Stump_qdyf7_lod5",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		}
+	],
+	"foliageAssetPaths": [],
+	"materialInstances": [
+		{
+			"instanceId": "mat1",
+			"instanceName": "MI_Mossy_Tree_Stump_qdyf7_1K",
+			"instancePath": "/Game/Megascans/3D_Assets/Mossy_Tree_Stump_qdyf7/MI_Mossy_Tree_Stump_qdyf7_1K.MI_Mossy_Tree_Stump_qdyf7_1K",
+			"instanceMaster": "master1",
+			"type": "materialInstance",
+			"params": [
+				{
+					"paramName": "albedo",
+					"usedTextureId": "tex2"
+				},
+				{
+					"paramName": "normal",
+					"usedTextureId": "tex3"
+				},
+				{
+					"paramName": "DR",
+					"usedTextureId": "tex1"
+				}
+			]
+		}
+	],
+	"textureSets": [
+		{
+			"textureId": "tex1",
+			"type": "DR",
+			"resolution": "1K",
+			"name": "T_MossyTreeStump_qdyf7_1K_DpR",
+			"path": "/Game/Megascans/3D_Assets/Mossy_Tree_Stump_qdyf7/T_MossyTreeStump_qdyf7_1K_DpR.T_MossyTreeStump_qdyf7_1K_DpR",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "PackTexture"
+				}
+			]
+		},
+		{
+			"textureId": "tex2",
+			"type": "albedo",
+			"resolution": "1K",
+			"name": "T_Mossy_Tree_Stump_qdyf7_1K_D",
+			"path": "/Game/Megascans/3D_Assets/Mossy_Tree_Stump_qdyf7/T_Mossy_Tree_Stump_qdyf7_1K_D.T_Mossy_Tree_Stump_qdyf7_1K_D",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "albedo"
+				}
+			]
+		},
+		{
+			"textureId": "tex3",
+			"type": "normal",
+			"resolution": "1K",
+			"name": "T_Mossy_Tree_Stump_qdyf7_1K_N",
+			"path": "/Game/Megascans/3D_Assets/Mossy_Tree_Stump_qdyf7/T_Mossy_Tree_Stump_qdyf7_1K_N.T_Mossy_Tree_Stump_qdyf7_1K_N",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "normal"
+				}
+			]
+		}
+	],
+	"masterMaterials": [
+		{
+			"masterId": "master1",
+			"masterMaterialName": "M_MS_Default_Material",
+			"path": "/Game/MSPresets/M_MS_Default_Material/M_MS_Default_Material"
+		}
+	]
+}

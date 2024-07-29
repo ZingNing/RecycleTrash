@@ -1,0 +1,196 @@
+{
+	"assetId": "pdpg7",
+	"assetName": "Rocks_pdpg7",
+	"assetType": "3d",
+	"assetSubType": "multipleMesh",
+	"assetTier": 3,
+	"assetRootPath": "/Game/Megascans/3D_Assets/Rocks_pdpg7",
+	"meshList": [
+		{
+			"meshId": "mesh1",
+			"name": "S_Rocks_pdpg7_lod5_Var1",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var1.S_Rocks_pdpg7_lod5_Var1",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh2",
+			"name": "S_Rocks_pdpg7_lod5_Var2",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var2.S_Rocks_pdpg7_lod5_Var2",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh3",
+			"name": "S_Rocks_pdpg7_lod5_Var3",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var3.S_Rocks_pdpg7_lod5_Var3",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh4",
+			"name": "S_Rocks_pdpg7_lod5_Var4",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var4.S_Rocks_pdpg7_lod5_Var4",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh5",
+			"name": "S_Rocks_pdpg7_lod5_Var5",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var5.S_Rocks_pdpg7_lod5_Var5",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh6",
+			"name": "S_Rocks_pdpg7_lod5_Var6",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var6.S_Rocks_pdpg7_lod5_Var6",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh7",
+			"name": "S_Rocks_pdpg7_lod5_Var7",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var7.S_Rocks_pdpg7_lod5_Var7",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh8",
+			"name": "S_Rocks_pdpg7_lod5_Var8",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var8.S_Rocks_pdpg7_lod5_Var8",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		},
+		{
+			"meshId": "mesh9",
+			"name": "S_Rocks_pdpg7_lod5_Var9",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/S_Rocks_pdpg7_lod5_Var9.S_Rocks_pdpg7_lod5_Var9",
+			"numberOfLods": 3,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		}
+	],
+	"foliageAssetPaths": [],
+	"materialInstances": [
+		{
+			"instanceId": "mat1",
+			"instanceName": "MI_Rocks_pdpg7_1K",
+			"instancePath": "/Game/Megascans/3D_Assets/Rocks_pdpg7/MI_Rocks_pdpg7_1K.MI_Rocks_pdpg7_1K",
+			"instanceMaster": "master1",
+			"type": "materialInstance",
+			"params": [
+				{
+					"paramName": "albedo",
+					"usedTextureId": "tex2"
+				},
+				{
+					"paramName": "normal",
+					"usedTextureId": "tex3"
+				},
+				{
+					"paramName": "DRF",
+					"usedTextureId": "tex1"
+				}
+			]
+		}
+	],
+	"textureSets": [
+		{
+			"textureId": "tex1",
+			"type": "DRF",
+			"resolution": "1K",
+			"name": "T_Rocks_pdpg7_1K_DpRF",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/T_Rocks_pdpg7_1K_DpRF.T_Rocks_pdpg7_1K_DpRF",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "PackTexture"
+				}
+			]
+		},
+		{
+			"textureId": "tex2",
+			"type": "albedo",
+			"resolution": "1K",
+			"name": "T_Rocks_pdpg7_1K_D",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/T_Rocks_pdpg7_1K_D.T_Rocks_pdpg7_1K_D",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "albedo"
+				}
+			]
+		},
+		{
+			"textureId": "tex3",
+			"type": "normal",
+			"resolution": "1K",
+			"name": "T_Rocks_pdpg7_1K_N",
+			"path": "/Game/Megascans/3D_Assets/Rocks_pdpg7/T_Rocks_pdpg7_1K_N.T_Rocks_pdpg7_1K_N",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "normal"
+				}
+			]
+		}
+	],
+	"masterMaterials": [
+		{
+			"masterId": "master1",
+			"masterMaterialName": "M_MS_Default_Fuzz_Material",
+			"path": "/Game/MSPresets/M_MS_Default_Fuzz_Material/M_MS_Default_Fuzz_Material"
+		}
+	]
+}
